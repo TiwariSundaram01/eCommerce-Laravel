@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>E-Commerce Website | Buy With Happiness</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
   <link rel="stylesheet" href="/css/index.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -40,16 +50,6 @@
       <h3>Sundaram</h3>
       <h1>Fashion</h1>
       <h2>E-Commerce</h2>
-      <button>
-        OUR OFFER
-        <span><i class="ri-arrow-right-line"></i></span>
-      </button>
-      <div class="scroll__bottom">
-        <a href="#">
-          <span><i class="ri-mouse-fill"></i></span>
-          WELCOME
-        </a>
-      </div>
       <div class="socials">
         <a href="#"><i class="ri-dribbble-fill"></i></a>
         <a href="#"><i class="ri-instagram-line"></i></a>
@@ -57,83 +57,89 @@
       </div>
     </section>
   </div>  
-  <div class="banner">
-    <div class="container">
-        <h1>Welcome to Our E-Commerce Store</h1>
-        <p>Discover the best products at amazing prices</p>
+
+  <!--===== ABOUT =====-->
+  <section class="about section" id="about">
+    <h2 class="section-title">About</h2>
+
+    <div class="about__container bd-grid">
+      <div class="about__img">
+        <img src="/assets/about.png" alt="" />
+      </div>
+
+      <div>
+        <h2 class="about__subtitle">I'am Sundaram</h2>
+        <p class="about__text">
+          I created this e-commerce website to provide a seamless online shopping experience. My goal is to offer a diverse range of high-quality products at competitive prices, ensuring convenience and satisfaction for every customer. Thank you for choosing to shop with me!
+        </p>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div id="feature-products" class="feature-product">
-      <div class="container">
-          <h2 class="text-center">Featured Products</h2>
-          <div class="row">
-              <div class="col-md-4">
-                  <div class="card">
-                      <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h5 class="card-title">Product 1</h5>
-                          <p class="card-text">This is a description of product 1.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="card">
-                      <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h5 class="card-title">Product 2</h5>
-                          <p class="card-text">This is a description of product 2.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="card">
-                      <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h5 class="card-title">Product 3</h5>
-                          <p class="card-text">This is a description of product 3.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
+
+  <section class="section__container2">
+    <h2>Testimonials</h2>
+    <h1>What our customers say</h1>
+    <div class="section__grid">
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Love the simplicity</h4>
+        <p>
+          They understood our brand and created a stunning website design.
+          Professional, responsive, and on-time delivery. Highly recommended!
+        </p>
+        <img src="/assets/user-1.jpg" alt="user" />
+        <h5>Allan Collins</h5>
+        <h6>Managing Director</h6>
       </div>
-  </div>
-
-  <div id="projects" class="project">
-      <div class="container">
-          <h2 class="text-center">Our Projects</h2>
-          <div class="row">
-              <div class="col-md-6">
-                  <div class="card">
-                      <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h5 class="card-title">Project 1</h5>
-                          <p class="card-text">This is a description of project 1.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-6">
-                  <div class="card">
-                      <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
-                      <div class="card-body">
-                          <h5 class="card-title">Project 2</h5>
-                          <p class="card-text">This is a description of project 2.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Excellent Designs</h4>
+        <p>
+          Efficient, reliable, and results-oriented. Visually appealing
+          website, improved online visibility. Highly recommended!
+        </p>
+        <img src="/assets/user-2.jpg" alt="user" />
+        <h5>Tanya Grant</h5>
+        <h6>Ceo & Founder</h6>
       </div>
-  </div>
-
-  <div id="about" class="about">
-      <div class="container">
-          <h2 class="text-center">About Us</h2>
-          <p class="text-center">We are an online store committed to providing the best products and services to our customers. Our mission is to make shopping easy, convenient, and enjoyable.</p>
+      <div class="section__card">
+        <span><i class="ri-double-quotes-l"></i></span>
+        <h4>Efficient and Reliable</h4>
+        <p>
+          Best decision we made. Stunning website, exceptional support. Always
+          available and prompt issue resolution. Hassle-free experience!
+        </p>
+        <img src="/assets/user-3.jpg" alt="user" />
+        <h5>Clay Washington</h5>
+        <h6>Fashion Designer</h6>
       </div>
-  </div>
+    </div>
+  </section>
 
-  <footer class="bg-light text-center p-3">
-      <p>&copy; 2024 E-Commerce. All Rights Reserved.</p>
+  <!--===== CONTACT =====-->
+  <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+      <form action="" class="contact__form">
+        <input type="text" placeholder="Name" class="contact__input" />
+        <input type="mail" placeholder="Email" class="contact__input" />
+        <textarea
+          name=""
+          id=""
+          cols="0"
+          rows="10"
+          class="contact__input"
+        ></textarea>
+        <input type="button" value="Send" class="contact__button button" />
+      </form>
+    </div>
+  </section>
+</main>
+
+  <footer class="bg-dark text-center p-3">
+      <p style="color:white;">&copy; 2024 E-Commerce. All Rights Reserved.</p>
   </footer>
 </body>
   <script src="https://unpkg.com/scrollreveal"></script>
