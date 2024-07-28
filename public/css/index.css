@@ -50,7 +50,6 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
@@ -447,6 +446,10 @@ nav {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  background: green;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
 }
 
 /* ===== FOOTER =====*/
