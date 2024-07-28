@@ -6,29 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>E-Commerce Website | Buy With Happiness</title>
   <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <!-- =====BOX ICONS===== -->
-    <link
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="/css/index.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <style>
-    .feature-product, .project, .about {
-        padding: 60px 0;
-    }
-    .banner {
-        background: #f8f9fa;
-        padding: 60px 0;
-        text-align: center;
-    }
-    </style>
+  {{-- Remixicon --}}
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+  {{-- Boostrap CSS --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  {{-- Animate on Scroll --}}
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+  {{-- CSS dependencies  --}}
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
   <div class="landerDiv">
@@ -59,7 +47,7 @@
   </div>  
 
   <!--===== ABOUT =====-->
-  <section class="about section" id="about">
+  <section class="about section" id="about" data-aos="flip-up" data-aos-offset="500">
     <h2 class="section-title">About</h2>
 
     <div class="about__container bd-grid">
@@ -77,7 +65,7 @@
   </section>
 
 
-  <section class="section__container2">
+  <section class="section__container2" data-aos="flip-up" data-aos-offset="500">
     <h2>Testimonials</h2>
     <h1>What our customers say</h1>
     <div class="section__grid">
@@ -118,7 +106,7 @@
   </section>
 
   <!--===== CONTACT =====-->
-  <section class="contact section" id="contact">
+  <section class="contact section" id="contact" data-aos="flip-up" data-aos-offset="500">
     <h2 class="section-title">Contact</h2>
 
     <div class="contact__container bd-grid">
@@ -144,4 +132,9 @@
 </body>
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="/js/index.js"></script>
-</html>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </html>
